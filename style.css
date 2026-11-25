@@ -1,0 +1,40 @@
+body{
+display: grid;
+grid-template-columns: 1fr 3fr 1fr;
+grid-template-rows: 15vh 10vh 65vh 10vh;
+background-color: beige;
+justify-items: center;
+align-items: stretch;
+
+
+}
+
+h1{
+border: 3px solid lightcyan;
+background-color: lightcyan;
+text-align: center;
+align-self: center;
+padding-top: 15px;
+padding-bottom: 15px;
+font-size: 50px;
+
+
+}
+
+nav{
+background-color: lightcyan;
+grid-column: 1/4;
+justify-self: stretch;
+
+a{
+    font-size: 40px;
+}
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+
+
+}
+
